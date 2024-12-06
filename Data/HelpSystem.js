@@ -1,0 +1,10 @@
+var xmlHelpSystemData = "";
+xmlHelpSystemData += '<?xml version=\"1.0\" encoding=\"utf-8\"?>';
+xmlHelpSystemData += '<WebHelpSystem DefaultUrl=\"index.htm\" Toc=\"Data/Tocs/TOC.js\" Index=\"Data/Index.js\" Concepts=\"Data/Concepts.js\" SearchDatabase=\"Data/Search.js\" Synonyms=\"Data/Synonyms.xml\" SearchUrl=\"Search.htm\" PathToScriptsFolder=\"Resources/Scripts/\" SkinName=\"SideNav\" SkinID=\"SideNav\" Multilingual=\"false\" Skins=\"SideNav\" BuildTime=\"12/6/2024 12:26:43 PM\" BuildVersion=\"20.1.9037.40627\" TargetType=\"WebHelp2\" SkinTemplateFolder=\"Skin/\" InPreviewMode=\"false\" TopNavTocPath=\"false\" MoveOutputContentToRoot=\"true\" ReplaceReservedCharacters=\"false\" MakeFileLowerCase=\"false\" UseCustomTopicFileExtension=\"false\" PreventExternalUrls=\"false\" EnableResponsiveOutput=\"true\" IncludeGlossarySearchResults=\"true\" ResultsPerPage=\"20\" FeaturedSnippetsScopeID=\"AllFiles\" FeaturedSnippetsResults=\"1\" KnowledgePanelResults=\"1\" IncludeMicroContent=\"true\" xml:lang=\"en-us\" LanguageName=\"English\" SearchEngine=\"MadCapSearch\" IncludeCSHRuntime=\"true\" DebugMode=\"false\" ShowMadCapBacklink=\"false\" HasELearning=\"false\">';
+xmlHelpSystemData += '    <CatapultSkin Version=\"6\" SkinType=\"WebHelp2\" ComponentType=\"MasterPage\" TemplateName=\"Fluid\" Comment=\"HTML5 Top Navigation skin\" EnableResponsiveOutput=\"True\" Name=\"SideNav\" SkinID=\"SideNav\" SkinClass=\"_Skins_SideNav\" HideNavOnStartup=\"False\" LogoUrl=\"\">';
+xmlHelpSystemData += '        <WebHelpOptions NavigationPanePosition=\"Right\" MainMenuPosition=\"Left\" EnableSticky=\"All\" />';
+xmlHelpSystemData += '        <MicroContentOptions FeaturedSnippetsViewMode=\"Truncated\" KnowledgePanelViewMode=\"Truncated\" />';
+xmlHelpSystemData += '        <ProxyOptions FAQProxyViewMode=\"DropDown\" KnowledgeProxyViewMode=\"Truncated\" PromotionProxyViewMode=\"PlainText\" />';
+xmlHelpSystemData += '    </CatapultSkin>';
+xmlHelpSystemData += '</WebHelpSystem>';
+MadCap.Utilities.Xhr._FilePathToXmlStringMap.Add('HelpSystem', xmlHelpSystemData);
